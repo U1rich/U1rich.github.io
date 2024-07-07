@@ -38,7 +38,7 @@ p {
 .heartsl {
     display: flex;
     justify-content: left;
-    margin-top: 100px;
+    margin-top: 20px;
 }
 
 .heart {
