@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Te Amo</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <h1>Te Amo Amol</h1>
-        <p>Atte:Eber</p>
+        <h1>Te Amo</h1>
+        <p>Eres la persona más especial en mi vida. ❤️</p>
+        <div class="hearts">
+            <div class="heart" onclick="openImage('image1.jpg')"></div>
+            <div class="heart" onclick="openImage('image2.jpg')"></div>
+            <!-- Agrega más corazones con diferentes imágenes -->
+        </div>
+        <div id="imageModal" class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage">
+        </div>
     </div>
 </body>
 </html>
