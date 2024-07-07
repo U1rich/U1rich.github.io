@@ -38,7 +38,7 @@ p {
 .heart {
     width: 50px;
     height: 50px;
-    background: url('heart.png') no-repeat;
+    background: url('resources/heart.png') no-repeat;
     background-size: contain;
     cursor: pointer;
     margin: 0 10px;
